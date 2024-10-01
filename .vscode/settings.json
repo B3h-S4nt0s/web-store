@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        ".next": "$(capture).next"
+    }
+}
