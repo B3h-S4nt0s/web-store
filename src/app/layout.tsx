@@ -7,7 +7,7 @@ const font = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Gamer store App",
+  title: "Gamer Store App",
   description: "Versão completa loja gamer",
 };
 
@@ -18,8 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={font.className}
-      >
+      <body className={font.className}>
         {children}
       </body>
     </html>
