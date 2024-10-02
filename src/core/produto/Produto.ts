@@ -10,8 +10,8 @@ export default interface Produto extends Precificavel {
     imagem: string
     nota: number
     videoReview: string
-    tags: []
-    Especificacoes: Especificacoes
+    tags: string[]
+    especificacoes: Especificacoes
 }
 
 // Relação de Herança
