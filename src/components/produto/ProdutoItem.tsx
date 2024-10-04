@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link";
-import NotaReview from "../shared/NotaReview.tsx";
+import NotaReview from "../shared/NotaReview";
 import Image from "next/image";
 import { IconShoppingCartPlus } from "@tabler/icons-react"; 
 import { Moeda, Produto } from "@/core";
