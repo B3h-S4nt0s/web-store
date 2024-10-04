@@ -1,7 +1,7 @@
 import { produtos } from "@/core"
 
 export default function PaginaProduto(props: any):any {
-    const id = +props.params.id
+    const id = +props.params.id // Convertion to number
     const produto = produtos.find((produto) => produto.id === id)
     return (
         <div>
